@@ -13,8 +13,8 @@ trait FormatDates {
   		
     	
     	//'2017-01-04 00:00:00'
-    	$date = strtotime('Y-m-d H:i:s',$string);
-    	return date_format($date,$pattern);
+    	$date = strtotime($string);
+    	return date($pattern,$date);
     }
 
 
