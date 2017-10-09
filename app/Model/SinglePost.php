@@ -24,7 +24,7 @@ class SinglePost extends Model
 
     public function comments(){
 
-    	return $this->hasMany('App\Model\PostComment','user_id','id');
+    	return $this->hasMany('App\Model\PostComment','post_id','id');
     }
 
     public function dateWithFormat($pattern){
