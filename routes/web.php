@@ -23,7 +23,8 @@ Route::prefix('{language}')->group(function ($language) {
 	/** Route Partial Map  **/
 
 	$partials = [
-		'blog'
+		'blog',
+		'model'
 	];
 	
 
